@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default render 1`] = `
+<div
+  className="root small"
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexGrow": 1,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <div
+        className="filename"
+      >
+        Doc1
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexGrow": 1,
+          }
+        }
+      >
+        100Kb
+      </div>
+      <button
+        className="button small"
+        onClick={[MockFunction]}
+        size="small"
+      >
+        delete
+      </button>
+    </div>
+  </div>
+</div>
+`;

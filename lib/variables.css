@@ -1,0 +1,38 @@
+.image-hub {
+	/* Color palette */
+	--asphalt: #2d3436;
+	--concrete: #b2bec3;
+	--ocean: #0984e3;
+	--slate: #636e72;
+	--white: #ffffff;
+	--wine: #d63031;
+
+	/* Application colors */
+	--error: var(--wine);
+	--input-border: var(--concrete);
+	--primary: var(--ocean);
+	--surface-primary: var(--white);
+	--surface-secondary: var(--concrete);
+	--text-primary: var(--asphalt);
+	--text-secondary: var(--slate);
+	--text-tertiary: var(--concrete);
+
+	/* Typography */
+	--font-size-body: 16px;
+	--font-size-small: 10px;
+
+	/* Measurements */
+	--grid-size: 8px;
+	--content-size: 960px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.image-hub {
+		--input-border: var(--slate);
+		--surface-primary: var(--asphalt);
+		--surface-secondary: var(--slate);
+		--text-primary: var(--white);
+		--text-secondary: var(--concrete);
+		--text-tertiary: var(--slate);
+	}
+}

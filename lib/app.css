@@ -1,0 +1,22 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap";
+@import "~lib/variables.css";
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#__next {
+	min-height: 100%;
+}
+
+.image-hub {
+	background-color: var(--surface-primary);
+	color: var(--text-primary);
+	font-family: "Roboto Mono", monospace;
+	font-size: var(--font-size-body);
+	margin: calc(var(--grid-size) * 8) auto;
+	max-width: calc(var(--content-size) + (4 * var(--grid-size)));
+	padding: 0 calc(var(--grid-size) * 2);
+}

@@ -1,0 +1,35 @@
+@import "~lib/variables.css";
+
+.root:nth-child(3n) {
+	padding-left: calc((var(--grid-size) * 4) / 3);
+}
+
+.root:nth-child(3n - 1) {
+	padding: 0 calc((var(--grid-size) * 4) / 6);
+}
+
+.root:nth-child(3n - 2) {
+	padding-right: calc((var(--grid-size) * 4) / 3);
+}
+
+.small.root {
+	padding: 0;
+}
+
+.card {
+	border-radius: calc(var(--grid-size) / 4);
+	border: 1px solid var(--input-border);
+	margin-bottom: calc(var(--grid-size) * 2);
+	padding: calc(var(--grid-size) * 2);
+	width: 100%;
+}
+
+.filename {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: calc(var(--grid-size) * 2.5);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+}

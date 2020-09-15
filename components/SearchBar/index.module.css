@@ -1,0 +1,44 @@
+@import "~lib/variables.css";
+
+.control {
+	margin-bottom: calc(var(--grid-size) * 2);
+}
+
+.search {
+	border-radius: calc(var(--grid-size) / 4);
+	border: 1px solid var(--input-border);
+	font: inherit;
+	margin: 0 calc(var(--grid-size) * 2) calc(var(--grid-size) * 2) 0;
+	max-width: calc(var(--grid-size) * 75);
+	padding: var(--grid-size) calc(var(--grid-size) * 2);
+	width: 100%;
+}
+
+.uploadControl {
+	position: relative;
+}
+
+.uploadControl > button {
+	z-index: -1;
+}
+
+.uploadControl > input {
+	cursor: pointer;
+	display: block;
+	font-size: 0;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.small .search {
+	margin-right: 0;
+}
+
+.small .uploadControl > button {
+	width: 100%;
+}

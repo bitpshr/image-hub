@@ -1,0 +1,18 @@
+@import "~lib/variables.css";
+
+.button {
+	background: var(--primary);
+	border-radius: calc(var(--grid-size) / 4);
+	border: 1px solid var(--primary);
+	color: var(--white);
+	cursor: pointer;
+	font: inherit;
+	letter-spacing: calc(var(--grid-size) / 4);
+	padding: var(--grid-size) calc(var(--grid-size) * 2);
+	text-transform: uppercase;
+}
+
+.small {
+	font-size: var(--font-size-small);
+	padding: calc(var(--grid-size) / 2) var(--grid-size);
+}

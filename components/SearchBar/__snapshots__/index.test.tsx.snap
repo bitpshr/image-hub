@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default render 1`] = `
+<div
+  className="control small"
+  style={
+    Object {
+      "alignItems": "stretch",
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexGrow": 1,
+      }
+    }
+  >
+    <input
+      autoCorrect="off"
+      className="search"
+      onChange={[Function]}
+      placeholder="Search documents..."
+      spellCheck={false}
+      type="search"
+    />
+  </div>
+  <div
+    className="uploadControl"
+  >
+    <input
+      accept="image/x-png,image/jpeg"
+      id="upload"
+      onChange={[MockFunction]}
+      type="file"
+    />
+    <button
+      className="button "
+    >
+      upload
+    </button>
+  </div>
+</div>
+`;

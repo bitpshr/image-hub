@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`documents 1`] = `
+<div
+  className="dashboard"
+>
+  <div
+    className="control small"
+    style={
+      Object {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "column",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexGrow": 1,
+        }
+      }
+    >
+      <input
+        autoCorrect="off"
+        className="search"
+        onChange={[Function]}
+        placeholder="Search documents..."
+        spellCheck={false}
+        type="search"
+      />
+    </div>
+    <div
+      className="uploadControl"
+    >
+      <input
+        accept="image/x-png,image/jpeg"
+        id="upload"
+        onChange={[Function]}
+        type="file"
+      />
+      <button
+        className="button "
+      >
+        upload
+      </button>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "column",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "stretch",
+          "display": "flex",
+          "flexDirection": "column",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexGrow": 1,
+          }
+        }
+      >
+        <h1
+          className="count"
+        >
+          0
+           documents
+        </h1>
+      </div>
+      <div
+        className="size"
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        Total size:
+         
+        0Kb
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexWrap": "wrap",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`error state 1`] = `
+<div
+  className="dashboard"
+>
+  <div
+    className="control small"
+    style={
+      Object {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "column",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexGrow": 1,
+        }
+      }
+    >
+      <input
+        autoCorrect="off"
+        className="search"
+        onChange={[Function]}
+        placeholder="Search documents..."
+        spellCheck={false}
+        type="search"
+      />
+    </div>
+    <div
+      className="uploadControl"
+    >
+      <input
+        accept="image/x-png,image/jpeg"
+        id="upload"
+        onChange={[Function]}
+        type="file"
+      />
+      <button
+        className="button "
+      >
+        upload
+      </button>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "column",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "stretch",
+          "display": "flex",
+          "flexDirection": "column",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexGrow": 1,
+          }
+        }
+      >
+        <h1
+          className="count"
+        >
+          0
+           documents
+        </h1>
+      </div>
+      <div
+        className="size"
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        Total size:
+         
+        0Kb
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexWrap": "wrap",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`loading state 1`] = `
+<div
+  className="dashboard"
+>
+  <div
+    className="control small"
+    style={
+      Object {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "column",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexGrow": 1,
+        }
+      }
+    >
+      <input
+        autoCorrect="off"
+        className="search"
+        onChange={[Function]}
+        placeholder="Search documents..."
+        spellCheck={false}
+        type="search"
+      />
+    </div>
+    <div
+      className="uploadControl"
+    >
+      <input
+        accept="image/x-png,image/jpeg"
+        id="upload"
+        onChange={[Function]}
+        type="file"
+      />
+      <button
+        className="button "
+      >
+        upload
+      </button>
+    </div>
+  </div>
+  <h1>
+    Loading...
+  </h1>
+</div>
+`;

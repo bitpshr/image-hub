@@ -1,0 +1,87 @@
+{
+  "name": "image-hub",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier . --ignore-path .gitignore --write",
+    "lint": "eslint . --ignore-path .gitignore --fix",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "swr": "^0.3.2"
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.4.1",
+    "@types/formidable": "^1.0.31",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.10.2",
+    "@types/react": "^16.9.49",
+    "@types/react-test-renderer": "^16.9.3",
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.1.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "4.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "formidable-serverless": "^1.0.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "react-test-renderer": "^16.13.1",
+    "typescript": "^4.0.2"
+  },
+  "babel": {
+    "presets": [
+      "next/babel"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": 0
+    }
+  },
+  "prettier": {
+    "useTabs": true,
+    "trailingComma": "es5",
+    "overrides": [
+      {
+        "files": "{tsconfig,package}.json",
+        "options": {
+          "useTabs": false
+        }
+      }
+    ]
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/.next/"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/lib/mockCSSTransform.ts"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/",
+      "^.+\\.module\\.css$"
+    ],
+    "moduleNameMapper": {
+      "@app/(.*)": "<rootDir>/$1",
+      "^.+\\.module\\.css$": "identity-obj-proxy"
+    }
+  }
+}
